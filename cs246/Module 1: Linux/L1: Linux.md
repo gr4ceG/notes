@@ -126,7 +126,7 @@ egrep "(c|C)(s|S)246" index.html [OR] egrep "[cC][sS]246" index.html
 > returns lines with all instances of `cs246` (not case sensitve) 
 ```
 
-==The patterns that `egrep` are called **regular expressions** and are not the same as globbing patterns==
+<mark>The patterns that `egrep` are called **regular expressions** and are not the same as globbing patterns</mark>
 
 | Syntax | Property |
 |---|---|
