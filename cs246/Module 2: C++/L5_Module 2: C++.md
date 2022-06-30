@@ -87,5 +87,3 @@ Read fails, value of the variable is unchanged if read fails/`max/min int` is to
 If the read fails: `cin.fail()` will be true 
 
 If the read fails because `EOF` both `cin.fail()` and `cin.eof()` will be true - but not until the read fails 
-
-*Example*.  Read all ints from `stdin` and print then, one per line, to `stdout`, stop on bad input of `EOF`
