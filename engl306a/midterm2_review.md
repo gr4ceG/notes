@@ -46,3 +46,44 @@ In summary, generally:
 ## Sentence structure?????? ill do it tommorrow
 
 # CH 5 The Sounds of Language: Phonetics and Phonology
+## 5.1.5 Spelling and Pronounciation
+Some spellings are influenced by a speaker;s deliefs about etymology (**etymological spelling**): *Debt* is a borrowing from the Old French *dette*, and the *b* (not pronounced) was inserted to show the relationship to Latin *debitum*
+
+## Production of Sound Speeches
+- Phonotation: modulation of the airstream in the glottis
+- Articulation
+
+phoneme: abstract representation of a class of sounds (allaphone)
+
+![](2022-07-03-21-40-35.png)
+
+`\t\' is a phonome
+
+5.2.1 Phontation
+Voiced vs voiceless
+[s] - voiceless 
+[z],[u] - voiced sounds
+
+- constants: involve some major obstruction in the airflow
+- vowels: realively little impedance of the airflow, but oral cavity is shaped in many different ways - different vowels and *diphthongs*
+
+sonorant: class of constant that are typically voices ("hummable" constants)
+
+| Sonorant | Example |
+|---|---|
+| [m] | "me" |
+| [n] | "knee" |
+| [ŋ] | "sing" |
+| [l] | "love" |
+| [r] | "ray" |
+| [j] | "yes" |
+| [w] | "when" |
+
+Vowels
+
+- [i]: high and front
+- [u]: high and back
+- [a]: low and front
+- [o]: low and back
+
+
