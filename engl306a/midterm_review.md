@@ -10,7 +10,7 @@
 | **`Iconic sign (icon)`** | A visual, auditory, or perceptional image of what the thing stands for → *(similarity, resemblance)* |
 | **`Symbolic sign (symbol)`** | Does not have a natural link between the signan and signatum, but rather a conventional link → *(metaphorical, arbitrary)*<ul><li> Is a learned relationship between the signan and signatum </li><li> Language is symbolic </li></ul> |
 
-![](2022-07-07-12-40-07.png)
+![](images/2022-07-07-12-40-07.png)
 
 ## § 1.2 Structuring principles in Language
 
