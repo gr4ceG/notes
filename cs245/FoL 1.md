@@ -10,7 +10,7 @@ Translation from English sentences to FOL formula:
 | The sum of any number with itself is even | $\forall x \exists y (x+x=2*y)$ |
 | There are infinitely many even numbers | $\forall x \exists y (x < y \wedge \exists z(y=2 * x))$ |
 | There is not a unique number x such that for every $y, x+y=0$ | $\neg \exists x (\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y)=0 \implies x=x'))$ |
-| There is a number $x$ such that for every $y, x+y=0$, but this number is unique | $\exists x(\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y=0) \implies x=x'))$|
+| There is a number $x$ such that for every $y, x+y=0$, but this number is unique | $\exists x( \forall y(x+y=0) \wedge \forall x'(\forall y(x'+y=0) \implies x=x'))$|
 
 Order of Quantifiers matter: Ex. For every y there exists $x$ such that $x+y=0$: 
 $$\forall y, \exists x (x+y=0) \neq \exists x \forall y (x+y=0)$$
@@ -23,9 +23,9 @@ $$\forall y, \exists x (x+y=0) \neq \exists x \forall y (x+y=0)$$
 - Constructed using atoms, connectives, quantifiers and punctuations 
 - Formation rules (8 rules) - Rules 1-6 are inherited from $Form(L^p)$
 1. An atom in $Atom(L)$ is in $Form(L)$
-2. If $A \in Form(L)$, then $(\neg A) \in Form(L)$
+2. If $A \in Form(L)$, then $( \neg A) \in Form(L)$
 
-3-6. If $A,B \in Form(L)$, then $(A*B) \in Form(L)$, where $*\in\{\wedge ,\vee , \implies ,\iff \}$
+3-6. If $A,B \in Form(L)$, then $(A * B) \in Form(L)$, where $ \* \in \{\wedge ,\vee , \implies ,\iff \}$
 
 7. If $If A(u)\in Form(L)$, then $\forall xA(x) \in Form(L)$
 8. If $If A(u)\in Form(L)$, then $\exists xA(x) \in Form(L)$
