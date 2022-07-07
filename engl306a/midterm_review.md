@@ -22,7 +22,7 @@
 	- *Inherent orientation*: orientation where  an artifact (which we assume as an extension of our body) is the reference point 
 - *Anthropocentricity*: If a human being is involved in an event, they to be named first, as the subject of the sentence.
 
-![](2022-07-07-12-41-09.png)
+![](images/2022-07-07-12-41-09.png)
 
 > **Principle of iconicity**: conceive a similarity between a form of language and the thing it stands for (*ex*. Cuckoo: name of bird imitates the sound it makes)
 
@@ -44,7 +44,7 @@
 
 ***Construal***: Each person's choice between various alternatives (ex. Calling a half-filled glass: half-full vs. half-empty)
 
-![](2022-07-07-13-06-58.png)
+![](images/2022-07-07-13-06-58.png)
 
 Conceptual categories may also show up as ==grammatical categories==: *Ex*. rain can be construed as two different word classes: *noun* and *verb* 
 
@@ -60,7 +60,7 @@ The word form is *significant (which signifies)*, and the meaning of the word is
 
 > **Classical definition**: a definition that lists all the necessary and sufficient conditions for something to be a member of a category.
 
-![](2022-07-07-13-10-05.png)
+![](images/2022-07-07-13-10-05.png)
 
 ## § 2.2 From words to meanings: Semasiology (Relationship of same word in Different Senses)
 
@@ -81,15 +81,14 @@ The word form is *significant (which signifies)*, and the meaning of the word is
 | **`Generalization`** | Original meaning is broadened| 
 
 *Ex. Dog* 
->1. dog, $n.^1$: A domesticated carnivorous mammal
-- dog, $n.^2$: As a way of distinguishing sex: a male dog, as opposed
-to a female one; contrasted with *bitch*
-- dog, $n.^3$: Denoting a person or thing (with varying degrees of contempt or admiration)
-- dog, $n.^4$: slang (originally U.S.). A horse that is slow, worthless, or difficult to handle
-- dog, $n.^5$: A heavy clamp for supporting something (e.g. part of a building), or fastening or holding it in place.
-- dog, $v.^1$: *transitive*. To follow like a dog on the heels of; to track (a person, or his or her trail, footsteps, etc.) closely and persistently.
-- dog, $v.^2$: *transitive*.To fasten or secure by means of a dog (see dog $n.^5$).
-- dog, $v.^3$: *transitive*.To shirk, avoid (a duty or responsibility); to undertake half-heartedly.
+>-  dog, $n.^1$: A domesticated carnivorous mammal
+>- dog, $n.^2$: As a way of distinguishing sex: a male dog, as opposed to a female one; contrasted with *bitch*
+>- dog, $n.^3$: Denoting a person or thing (with varying degrees of contempt or admiration)
+>- dog, $n.^4$: slang (originally U.S.). A horse that is slow, worthless, or difficult to handle
+>- dog, $n.^5$: A heavy clamp for supporting something (e.g. part of a building), or fastening or holding it in place.
+>- dog, $v.^1$: *transitive*. To follow like a dog on the heels of; to track (a person, or his or her trail, footsteps, etc.) closely and persistently.
+>- dog, $v.^2$: *transitive*.To fasten or secure by means of a dog (see dog $n.^5$).
+>- dog, $v.^3$: *transitive*.To shirk, avoid (a duty or responsibility); to undertake half-heartedly.
 
 - `Metonymization`: Based on correlation/contiguity ($v.^2$)
 - `Metaphorization`: Based on resemblance ($n.^3$ , $n.^4$: comparison of the speed of a slow racing horse to a dog, $n.^5$: comparison to dog jaws ,$v.^1$: comparison to dog behaviours, $v.^3$)
@@ -104,25 +103,23 @@ to a female one; contrasted with *bitch*
 
 > **Lexical field**: collection of words that are all in the same conceptual domain - *breakfast, lunch, brunch* - belong to same lexical field (meals)
 
-![](2022-07-07-13-12-23.png)
+![](images/2022-07-07-13-12-23.png)
 
 **Salience effect in onomasiology**: certain term in the hierarchy (animal, canine, dog) is thought of first
 
 **Entrenchment**: choice of one particular member of a category is more prominently used (ex. miniskirt over wrap-over skirt)
 
 ### Taxonomies
-![](2022-07-07-13-12-40.png)
+![](images/2022-07-07-13-12-40.png)
 
 (?) - **lexical gap**: no basic level term where we expect one
 
-> **Hypernynm (parent, superordinate)** - ex. vehicle is a hypernynm of car
-> 
-> **Basic level term** a word used most readily to refer to a given phenomenon (evel where salience effects are most outspoken)
-> 
-> **Hyponym (child, subordinate)** - sports car is a hyponym of car
+> - **Hypernynm (parent, superordinate)** - ex. vehicle is a hypernynm of car
+>- **Basic level term** a word used most readily to refer to a given phenomenon (evel where salience effects are most outspoken)
+>- **Hyponym (child, subordinate)** - sports car is a hyponym of car
 
 ### Conceptual metonymy
-![](2022-07-07-13-13-36.png)
+![](images/2022-07-07-13-13-36.png)
 
 # CH 3. Meaningful Building Blocks: Morphology 
 
@@ -139,10 +136,10 @@ to a female one; contrasted with *bitch*
 
 Two main ways of building composite words: **`COMPOUNDING`** and **`DERIVATION`**
 
-![](2022-07-07-13-14-17.png)
+![](images/2022-07-07-13-14-17.png)
 
 *Ex. **Complex composites** - _More than one word-formation processes_ may be involved in forming one composite word* (Harris Notes: Complex → compound or derivations) 
-![](2022-07-07-13-14-49.png)
+![](images/2022-07-07-13-14-49.png)
 
 | Type of Affix | Property |
 |---|---|
@@ -164,7 +161,7 @@ Two main ways of building composite words: **`COMPOUNDING`** and **`DERIVATION`*
 > 
 > **Inflected forms**: words combined with *bound gramatical morphemes*
 
-![](2022-07-07-13-15-48.png)
+![](images/2022-07-07-13-15-48.png)
 
 ## § 3.2 Compounding 
 
@@ -181,11 +178,11 @@ In a compound: generally the second element that determines the compound's new w
 ### Compounds vs. Syntactic Groups 
 
 Compounds vs. Syntactic groups: different stresses
-![](2022-07-07-13-16-37.png)
+![](imahes/2022-07-07-13-16-37.png)
 
 The phonological difference is accompanied by fundamental differences in meaning: compounds have a meaning of their own (ex. blackbird → is a breed of birds, female blackbirds are actually "brown birds", hence different meaning from its syntatical counterpart)
 
-![](2022-07-07-13-17-00.png)
+![](images/2022-07-07-13-17-00.png)
 
 ## § 3.3 Derivation 
 
@@ -239,7 +236,7 @@ Syntax: arranges together elements of a sentence by means of *regular patterns*
 
 Subject: The one doing something, direct object: the thing being done something to
 
-![](2022-07-07-13-18-04.png)
+![](images/2022-07-07-13-18-04.png)
 
 ## § 4.2 Event Schemas and Participant Roles 
 
@@ -253,14 +250,14 @@ Subject: The one doing something, direct object: the thing being done something 
 | **`“Experiencing” schema:`** | *What does someone feel, see, etc.?* - mental processing of the contact with the world <ul><li>Usually have verbs *to see, to feel, to know, to think, to want, to hear, etc.* </li><li>entity in the experiencing schema is the **experiencer**, neither passive (patient) or active (agent), but is a "registration center" of these perceptions, emotions, thought processes, and wants</li></ul>|
 | **`“Having” schema:`** | *What does an entity have?* - The entity is the **possessor**, much like a patient (have, with)|
 
-![](2022-07-07-13-18-30.png)
+![](images/2022-07-07-13-18-30.png)
 
 ## § 4.3 Hierarchical and Linear Structure of the sentence 
 
 1. ***Linear structure***: word order
 2. ***Hierarchial structure***: Grouping of parts of sentence in a hierarchial structure
 
-![](2022-07-07-13-18-58.png)
+![](images/2022-07-07-13-18-58.png)
 
 ### Sentence Patterns
 
