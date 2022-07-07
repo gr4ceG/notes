@@ -8,7 +8,7 @@ Translation from English sentences to FOL formula:
 | English | FOL formula |
 |---|---|
 | The sum of any number with itself is even | $\forall x \exists y (x+x=2*y)$ |
-| There are infinitely many even numbers | $\forall x \exists y (x<y \wedge \exists z(y=2*x))$ |
+| There are infinitely many even numbers | $\forall x \exists y (x<y \wedge \exists z(y=2 \times x))$ |
 | There is not a unique number x such that for every $y, x+y=0$ | $\neg \exists x (\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y)=0 \implies x=x'))$ |
 | There is a number $x$ such that for every $y, x+y=0$, but this number is unique | $\exists x(\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y=0) \implies x=x'))$|
 
@@ -76,16 +76,16 @@ Closed formulas = sentences $Sent(L)$
 | Example | Type of Formula (Open, closed) explanation |
 |---|---|
 | $(u> 0)$ | atomic formula, $u$ is a free variable; hence open formula |
-| $\exists x$ ==$(x + 1 = f(o))$ scope of $\exists x$== | closed formula sentence, $x$ is bounded by $\exists x$ |
+| $\exists x$ $(x + 1 = f(o))$ scope of $\exists x$ | closed formula sentence, $x$ is bounded by $\exists x$ |
 | $\forall x \exists y f(u)=x+y$ | $u$ is free $\implies$ open formula |
 
 Note: 
-- $\forall x \exists y$ ==$f(u)=x+y$== scope of $\exists y$
-- $\forall x$ == $\exists y f(u)=x+y$== scope of $\forall x$
+- $\forall x \exists y$ $f(u)=x+y$ scope of $\exists y$
+- $\forall x$ $\exists y f(u)=x+y$ scope of $\forall x$
 
 ### Precedence Rules
 $\forall x, \exists x$ bind tightest (have highest precedence)
-- $\forall x$ ==$A(x)$== $\wedge B(x) \implies C(x)$ ==scope of A==
+- $\forall x$ $A(x)$ $\wedge B(x) \implies C(x)$ scope of A
   - Also equivalent to $(\forall x A(x)) \wedge B(x) \implies C(x)$
 - $\forall x(...)$
 
@@ -99,8 +99,8 @@ graph TD;
 ...
 
 ## Semantics of FOL formulas
-A ==valuation== $v$ consists of: 
-- A domain D
+A *valuation* $v$ consists of: 
+- A domain $D$
 - an interpretation/assignment for: 
   - each individual symbol $a$, $a^v \in D$
   - each function symbol $f, f^v: D^n \to D$
