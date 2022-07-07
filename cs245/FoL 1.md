@@ -8,7 +8,7 @@ Translation from English sentences to FOL formula:
 | English | FOL formula |
 |---|---|
 | The sum of any number with itself is even | $\forall x \exists y (x+x=2*y)$ |
-| There are infinitely many even numbers | $\forall x \exists y (x<y \wedge \exists z(y=2 \times x))$ |
+| There are infinitely many even numbers | $\forall x \exists y (x < y \wedge \exists z(y=2 * x))$ |
 | There is not a unique number x such that for every $y, x+y=0$ | $\neg \exists x (\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y)=0 \implies x=x'))$ |
 | There is a number $x$ such that for every $y, x+y=0$, but this number is unique | $\exists x(\forall y(x+y=0) \wedge \forall x'(\forall y(x'+y=0) \implies x=x'))$|
 
