@@ -25,7 +25,7 @@ $$\forall y, \exists x (x+y=0) \neq \exists x \forall y (x+y=0)$$
 1. An atom in $Atom(L)$ is in $Form(L)$
 2. If $A \in Form(L)$, then $( \neg A) \in Form(L)$
 
-3-6. If $A,B \in Form(L)$, then $(A * B) \in Form(L)$, where $ \* \in \{\wedge ,\vee , \implies ,\iff \}$
+3-6. If $A,B \in Form(L)$, then $(A \ast B) \in Form(L)$, where $\ast \in \{\wedge ,\vee , \implies ,\iff \}$
 
 7. If $If A(u)\in Form(L)$, then $\forall xA(x) \in Form(L)$
 8. If $If A(u)\in Form(L)$, then $\exists xA(x) \in Form(L)$
