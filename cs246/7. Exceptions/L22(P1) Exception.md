@@ -53,9 +53,17 @@ catch (...) { // LITERALLY means ...
 ```
 
 ```c++
-void fib(int n) {
-    if (n == 0 | n == 1) throw 1;
-
+void fib(intn) {
+    if (n == 0 || n == 1) throw 1;
+    try {
+        fib(n-1);
+    } catch (int x) {
+        try {
+            fib(n-2);
+        } catch (int y) {
+            throw x+y;
+        }
+    }    
 }
 ```
 
@@ -76,4 +84,4 @@ try {
 
 When `new` fails, it throw `std::bad_alloc`. Warning! NEVER let a destructor throw, by default, the program will terminate immediately because the compiler implicitly marks destructors as functions that should never throw.
 
-It is possible to create a throwing destructor, by overruling this implicit decision. But, you still shouldn't!
+It is possible to create a throwing destructor, by overruling this implicit decision. But, you still shouldn't do this: if a destructor throws as a result of it executing due to satck unwinding caused by another exception, you now have TWO active exceptions, progran will abort immediately, no other objects further down the call chain gets cleaned up.
