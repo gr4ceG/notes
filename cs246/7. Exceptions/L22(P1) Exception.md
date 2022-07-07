@@ -84,14 +84,6 @@ try {
 
 When `new` fails, it throw `std::bad_alloc`. Warning! NEVER let a destructor throw, by default, the program will terminate immediately because the compiler implicitly marks destructors as functions that should never throw.
 
-<<<<<<< HEAD:cs246/7. Exceptions/L22(P1) Exception.md
 It is possible to create a throwing destructor, by overruling this implicit decision. But, you still shouldn't do this: if a destructor throws as a result of it executing due to satck unwinding caused by another exception, you now have TWO active exceptions, progran will abort immediately, no other objects further down the call chain gets cleaned up.
-=======
+
 It is possible to create a throwing destructor, by overruling this implicit decision. But, you still shouldn't!
-
-
-
-
-
-# HI GRACE LOVE UR NOTES!!
->>>>>>> 42e7dc14c407e93b337b93cc678b31a2f3fb4a92:cs246/7. Exceptions/L22.md
