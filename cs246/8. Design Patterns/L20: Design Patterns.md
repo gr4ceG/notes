@@ -9,7 +9,7 @@ There can be many different types of observer classes, and the subject should no
 
 Observer Pattern: 
 
-![](2022-06-30-14-16-38.png)
+![](images/2022-06-30-14-16-38.png)
 
 The abstract class subject contains all the code commmon to alll subjects - the abstract observer contains the interface common to all observers 
 
@@ -91,7 +91,7 @@ Adding these at runtime means we could start with just a basic window and add a 
 
 ### The Decorator Pattern
 
-![](2022-06-30-14-18-57.png)
+![](images/2022-06-30-14-18-57.png)
 
 class `Component` defined the interface: operations your objecs will provide. `ConcreteComponent` is your **basic, undecorated** object, so offers Based imples of these? 
 
@@ -99,7 +99,7 @@ The decorator classes all inherit from `Decorator` which inherits from `Componen
 
 *Example.* Pizza
 
-![](2022-06-30-14-19-47.png)
+![](images/2022-06-30-14-19-47.png)
 
 ```c++
 class Pizza {

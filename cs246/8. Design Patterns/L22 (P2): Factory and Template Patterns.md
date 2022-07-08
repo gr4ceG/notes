@@ -1,7 +1,7 @@
-# Factory Patter Method
+# Factory Pattern Method
 Problem: write a video game with two types of enemies, turtles and bullets, the system randomely sends turtles and bullets, but bullets become more frequent in later levels.
 
-![](2022-07-07-12-01-30.png) (*Enemy*, *Level* in italicts in UML)
+![](images/2022-07-07-12-01-30.png) (*Enemy*, *Level* in italicts in UML)
 
 Since we never know exactly what enemy comes next, we don't want to call constructors directly. Moreover, we don't want to hardcode the decision policy, as we want it to be customizable.
 
