@@ -14,7 +14,7 @@ Valuations:
 ## Values of terms $Term(L)$
 | Meaning | Notation |
 |---|---|
-| $t$ is an individual symbol a | $t^v = a^v$ |
+| $t$ is an individual symbol a | \(t^v = a^v\) |
 | $t$ is an free var u | $t^v = u^v$ |
 | $t$ is $f(t_1 ... t_n)$ | $t^v = f^v({t_1}^v...{t_n}^v)$  $F:D^n \to D$ |
 
@@ -58,7 +58,7 @@ So for every $d\in D$, $(F(d) \implies G(d))^{v_2}=0$.
 # Satisfiability 
 > <r>**Defn**: $A \in Form(L)$ is **satisfiable** if there exists $v$ such that $A^v=1$.</r> 
 
-$A \in Form(L)$ is unsatisfiable if for every $v$, $A^v=0$
+\(A\) \in Form(L)$ is unsatisfiable if for every $v$, $A^v=0$
 
 > <r>$A \in Form(L)$ is **universally valid** (tautologically true) is for every $v$, $A^v=1$.</r> 
 
