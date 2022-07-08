@@ -14,7 +14,7 @@ Valuations:
 ## Values of terms $Term(L)$
 | Meaning | Notation |
 |---|---|
-| $t$ is an individual symbol a | \(t^v = a^v\) |
+| $t$ is an individual symbol a | $t^v = a^v$ |
 | $t$ is an free var u | $t^v = u^v$ |
 | $t$ is $f(t_1 ... t_n)$ | $t^v = f^v({t_1}^v...{t_n}^v)$  $F:D^n \to D$ |
 
