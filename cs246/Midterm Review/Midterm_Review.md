@@ -1,11 +1,3 @@
-<style>
-r { color: #F95050 }
-navy { color: #000099 }
-b { color: #50C1F9 }
-o { color: #F7A63B }
-g { color: #32a852 }
-</style>
-
 ## Table of Contents <!-- omit from toc -->
 - [Module 2 (Part 1): C++ Basics](#module-2-part-1-c-basics)
   - [Overloading](#overloading)
@@ -321,16 +313,6 @@ string
 publickey; 
 ```
 `#ifdef` checks if a preprocessor variable is *set at all*, opoosite of `ifdef` is `ifndef`.
-```c++
-
-```
-
-- preproccessor defintions in cmd lines
-- seperate comilations
-- global vars
-- make and makefiles
-- preprocessor guards
-- final remarks (3 bigGGGG POINTS!)
 
 ## Module 2 (Part 2): Object Oriented Programming
 
@@ -619,7 +601,7 @@ Node *n = new Node{1, new Node{2, new Node{3, nullptr}}};
 Node m = *n; // copy ctor; identical to "Node m{*n}"
 Node *p = new Node{*n}; // copy ctor
 ```
-![node_diagram](2022-06-22-13-43-12.png)
+![node_diagram](images/2022-06-22-13-43-12.png)
 
 Note: `n`, `m`, `p` are on the stack -> data they point to is on the heap
 
@@ -753,7 +735,7 @@ Node *z = new Node{4, new Node{5, new Node{6, nullptr}}};
 np = z;
 ```
 Problem: 
-![memory leak](2022-06-22-15-08-01.png)
+![memory leak](images/2022-06-22-15-08-01.png)
 
 ```c++
 Node & operator=( const Node & other) {
