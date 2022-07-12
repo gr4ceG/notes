@@ -64,7 +64,10 @@ Observe:
 - $\displaystyle{r \choose x}$: ways to choose x success object from r available
 - $\displaystyle{N-r \choose n-x}$: ways to choose remaining $(n-x)$ objects from $(N-r)$ failures
 
-> **Probability function**: ==$f(x)=P(X=x)=\displaystyle\frac{{r \choose x}{N-r \choose n-x}}{N \choose n}$==
+{% comment %} 
+     Character or lines for Jekyll to skip.
+    > **Probability function**: ==$f(x)=P(X=x)=\displaystyle\frac{{r \choose x}{N-r \choose n-x}}{N \choose n}$==
+{% endcomment %}
 
 Note: $x \geq \max\{0, n-N+r\}$, $x \leq \min\{r, n\}$
 
