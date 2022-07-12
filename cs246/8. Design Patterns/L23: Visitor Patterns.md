@@ -31,27 +31,27 @@ The trick to getting double dispatch is to combine overloading and overriding.
 class Enemy {
     public: 
         virtual void beStruckBy(Weapon &w) = 0;
-}
+};
 
 class Bullet : public Enemy {
     public: 
         void beStruckBy(Weapon &w) {
             w.strike(*this); // strike with bullet argument
         }
-}
+};
 
 class Turtle: public Enemy {
     public:
         void beStruckBy(Weapon &w) {
             w.strike(*this); // strike with turtle argument
         }
-}
+};
 
 class Weapon {
     public:
         virtual void strike(Turtle &t) = 0; // OVERLOADING
         virtual void strike(Weapon &w) = 0;
-}
+};
 
 class Stick: public Weapon {
     public: 
@@ -61,7 +61,7 @@ class Stick: public Weapon {
         void strike(Bullet &b) {
             // strike bullet with a stick
         }
-}
+};
 
 // Rock is similar
 
@@ -79,3 +79,45 @@ What are the order for operations?
 - The appropriate overriden method call `w.strike` on itself, the argumeny reference type is then a Bullet or a Turtle based on which method was chosen above
 - Then the appropriate strike method is chosen based on virtual dispatch
 - Our stick or our rock hits the Turtle or Bullet appropriately
+
+The visitor pattern can be used to add functionality to existing classes without changing or recompiling them, so long as they offer the visit interface.
+
+*Example:* Add a visitor to the `Book` hierarchy
+
+```c++
+class Book { // similar to Enemy -> this should be ABSTRACT, for the sake of space we will make it concrete
+    public:
+        virtual void accept(BookVisitor &bv) {
+            v.vist(*this)
+        }
+};
+
+class Comic: public Book {
+    public:
+        ...
+        void accept(BookVistor &v) override { // similar to beStruckBy
+            v.vist(*this);
+        }
+};
+
+// Text is similar
+
+class BookVisitor { // similar to Weapon - our overloads
+    public:
+        virtual void visit(Book &b) = 0; // similar to strike
+        virtual void visit(Comic &c) = 0;
+        virtual void visit(Text &t) = 0;
+}
+```
+
+Application: track how many of each type of Book we have - group Books by author, texts by topic, and comics by hero.
+
+```c++
+struct Catalogue: public BookVisitor {
+    map<string, int> theCatalogue;
+    void visit(Book &b){ ++theCatalogue[b.getAuthor()] }
+    void visit(Comic &c){ ++theCatalogue[c.getHero()] }
+    void visit(Text &t){ ++theCatalogue[t.getTopic()] }
+}
+```
+
