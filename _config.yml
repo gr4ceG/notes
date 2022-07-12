@@ -2,6 +2,8 @@ theme: jekyll-theme-tactile
 markdown: kramdown
 liquid:
   error_mode: warn
+exclude:
+  [stat230/textbook notes/CH5_ProbabilityModels.md]
 plugins:
   - jekyll-relative-links
 relative_links:
