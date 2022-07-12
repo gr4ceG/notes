@@ -8,3 +8,6 @@
 * [CS246](./cs246/cs246.md)
 * [CS245](./recipes/Gazpacho.md)
 * [STAT230](./recipes/Gazpacho.md)
+
+* TOC
+{:toc}
