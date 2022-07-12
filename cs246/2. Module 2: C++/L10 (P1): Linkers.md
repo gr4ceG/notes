@@ -73,4 +73,4 @@ The first time `vec.h` is included, the symbol `VEC_H` is not defined, so the fi
 
 ***DON'T***: put `using namespace ~`; in `.h` files - it forces files that include your header to have that using directive 
 
-NEVER EVER include .cc files, and NEVER EVER compile .h files==, their code gets compiled as part of the files they're included in
+NEVER EVER include .cc files, and NEVER EVER compile .h files, their code gets compiled as part of the files they're included in
