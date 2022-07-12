@@ -169,3 +169,21 @@ class F {
 ```
 
 Do not introduce compilation dependencies where they don't actually exist. Forward declare when possible, include only when nessessary.
+
+Now, the implementation files will likely have true dependecies, but thats okay.
+
+Consider the `Xwindow` class. 
+```c++
+class Xwindow {
+    Display *d;
+    Window w;
+    int s;
+    GC gc;
+    unsigned long colours[10];
+    ...
+};
+```
+
+What if we add or change a private member? All client code must recompile. 
+
+Seems unnessessary, the clients should not care about private data. 
