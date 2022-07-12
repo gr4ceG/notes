@@ -109,7 +109,7 @@ Spilt the program into composalie modules, each which provide:
 // vec.h (interface) 
 struct vec {
 	int x,y; 
-y; // definition of type vex 
+}; // definition of type vex 
 
 vec operator+(const vec &v1, const vec &v2); 
 

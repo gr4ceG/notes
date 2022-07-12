@@ -3,7 +3,7 @@
 ~~~ c++
 int main(){
 	int i; 
-	while (true) 
+	while (true) {
 		cin >> i; 
 		if (cin.fail()) break; 
 		cout << i << endl; 
@@ -30,7 +30,7 @@ This is why we can write:
 ~~~c++
 int main() {
 	int i; 
-	while (true)
+	while (true) {
 		if (!(cin >> i)) break; 
 		cout << i << endl
 	}
@@ -56,7 +56,7 @@ using namespace std;
 
 int main() {
 	int i; 
-	while (true)
+	while (true) {
 		if (!(cin >> i)) { 
 			if (cin.eof()) break; 
 			cin.clear() // clears the fail bit (and eof bit) 

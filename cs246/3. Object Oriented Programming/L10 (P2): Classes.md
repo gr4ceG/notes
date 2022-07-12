@@ -16,7 +16,7 @@ float student::grade() {
 
 // client code 
 Student s{60, 70, 80}; 
-cout << s.grade(0 << endl; 
+cout << s.grade() << endl; 
 ```
 
 ## Some OOP terminolgy
