@@ -115,9 +115,57 @@ Application: track how many of each type of Book we have - group Books by author
 ```c++
 struct Catalogue: public BookVisitor {
     map<string, int> theCatalogue;
-    void visit(Book &b){ ++theCatalogue[b.getAuthor()] }
-    void visit(Comic &c){ ++theCatalogue[c.getHero()] }
-    void visit(Text &t){ ++theCatalogue[t.getTopic()] }
+    void visit(Book &b){ ++theCatalogue[b.getAuthor()]; }
+    void visit(Comic &c){ ++theCatalogue[c.getHero()]; }
+    void visit(Text &t){ ++theCatalogue[t.getTopic()]; }
 }
 ```
 
+Won't compile - why not?
+
+`book.h` includes `bookvisitor.h`, which includes `text.h`, `text.h` includes `book.h` - a circular include!
+
+Because of the header guard, `text.h` dosen't actually get a copy of `book.h`. So, the compiler dosen't know what a Book is when we define Text as a subclass.
+
+But are all of these includes really nessessary? 
+
+## Compilation Dependecies
+
+When does a compilation dependecy exist, i.e when does a file REALLY need to include another?
+
+Consider
+```c++
+// a.h
+class A {...};
+
+// b.h -> needs #include "a.h"
+// size of B DEPENDS on size of A, hence must include
+#include "a.h"
+class B: public A {...};
+
+// c.h -> needs #include "a.h"
+// creates an A, requires the size of A, hence must include
+#include "a.h"
+class C { A myA; };
+
+// d.h -> does not need #include "a.h" -> pointer is always 8 bytes
+// can just forward declare class A
+class A;
+class D { A * myAp; }
+
+// e.h -> does not need #include "a.h"
+// f is a function DECLARATION: compiler DOES NOT need to generate code, hence compiler just needs to know A exists -> forward declare A
+class A; 
+class E { A f(A x); }
+
+// f.h -> needs #include "a.h"
+// taking A as a parameter, (for DEFINITION) compiler must generate code for this function -> compiler needs to know the size of A
+#include "a.h"
+class F { 
+    A f(A x) {
+        x.someMethod();
+    }
+}
+```
+
+Do not introduce compilation dependencies where they don't actually exist. Forward declare when possible, include only when nessessary.
