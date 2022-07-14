@@ -4,3 +4,10 @@
 4. engl306A notes from Randy Harris' lectures that i decided not to skip
 
 # Table of Contents
+
+* [CS246](./cs246/cs246.md)
+* [CS245](./recipes/Gazpacho.md)
+* [STAT230](./recipes/Gazpacho.md)
+
+* TOC
+{:toc}
