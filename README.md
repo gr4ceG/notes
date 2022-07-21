@@ -7,7 +7,7 @@
 
 <div id="toc_container">
 <ul class="toc_list">
-  <li><a href="./cs246/cs246.md">CS246</a>
+  <li><a href="./cs246/cs246.html">CS246</a>
   <ul>
     <li><a href="./cs246/1.%20Module%201%3A%20Linux/">1. Module 1: Linux</a></li>
     <li><a href="./cs246/2.%20Module%202%3A%20C%2B%2B/">2. Module 2: Basic C++</a></li>
