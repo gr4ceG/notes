@@ -9,20 +9,20 @@ Let $X$ be a discrete random variable with $range(X)=A$:
 > **Probability function ($p.f$) of $X$:** 
 ==$f(x)=P(X=x)$, defined for all $x\in A$==
 
-**Probability distribution of X**: the set of pairs $\{(x,f(x)):x \in A\}$
+**Probability distribution of X**: the set of pairs $\{(x,f(x)):x \in A \}$
 
 *All probability functions must have two properties:* 
 1. $1 \leq f(x) \geq 0$ for all $x \in A$
 2. $\sum_{all x \in A} f(x) = 1$
 
 > **Cumulative distributive function ($c.d.f$) of $X$:** 
-==$f(x)=P(X \leq x)$, defined for all $x\in \R$==
+==$f(x)=P(X \leq x)$, defined for all $x\in \mathbb{R}$==
 
 In general, $F(x)$ can be obtained from $f(x)$ using $F(x)=P(X \leq x)=\sum_{u \leq x}f(u)$
 
 *All cumulative diributive functions must have three properties:* 
-1. $F(x)$ is a *non-decreasing* function of $x$ for $x \in \R$
-2. $0 \leq F(x) \leq 1$ for all $x \in \R$
+1. $F(x)$ is a *non-decreasing* function of $x$ for $x \in \mathbb{R}$
+2. $0 \leq F(x) \leq 1$ for all $x \in \mathbb{R}$
 3. $\lim_{x \to -\infty}F(x)=0$ and $\lim_{x \to \infty}F(x)=1$.
 
 Note: ==$f(x)=F(x)-F(x-1)$== $\implies P(X=x) = P( X \leq x) - P(X \leq x-1)$
