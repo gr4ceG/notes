@@ -32,7 +32,7 @@ Note: $f(x)=F(x)-F(x-1)$ $\implies P(X=x) = P( X \leq x) - P(X \leq x-1)$
 Suppose the range of X is $\{a, a+1, ..., b\}$, where all values are ==equally probable==. Then $X$ has a *Discrete Uniform Distribution* on the set $\{a, a+1, ..., b\}$.
 
 > **Probability function:** There as $b-a+1$ values in the set $\{a, a+1, ..., b\}$, so the probability of each value is $\displaystyle\frac{1}{b-a+1}$ so that $\sum_{x=a}^{b}f(x)=1$
-$$f(x)=\begin{cases}
+$$ f(x)=\begin{cases}
     \displaystyle\frac{1}{b-a+1} &  \text{for } x=a,a+1,...,b \\
     0 & \text{otherwise}
 \end{cases} $$
@@ -84,7 +84,7 @@ Where $P(S)=p$ and $P(F)=1-p$. Repeat the experiment ==**$n$ independent times**
 
 Let X be the number of successes obtained. $X~Binomial(n,p)$
 
-> **Probability function:** $f(x)=P(X=x)=\displaystyle{n \choose x}p^x(1-p)^{n-x}$ for $x=0,1,...,n$ and $0<p<1$
+> **Probability function:** $f(x)=P(X=x)=\displaystyle{n \choose x}p^x(1-p)^{n-x}$ for $x=0,1,...,n \text{ and } 0<p<1$
 
 ### Binomial vs. Hypergeometric Distribution 
 If $N$ is large enough, the number $n$ being drawn is relatively smaller ($N \geq n$), then the Binomial distibution can be used to approximate the hypergeometric distribution. 
