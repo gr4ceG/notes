@@ -85,7 +85,7 @@ Where $P(S)=p$ and $P(F)=1-p$. Repeat the experiment ==**$n$ independent times**
 Let X be the number of successes obtained. $X~Binomial(n,p)$
 
 > **Probability function:** $f(x)=P(X=x)=\displaystyle{n \choose x}p^x(1-p)^{n-x}$
-> for $x=0,1,...,n$ and $0<p<1$
+> for $x=0,1,...,n$ and $0 \less p \less 1$
 
 ### Binomial vs. Hypergeometric Distribution 
 If $N$ is large enough, the number $n$ being drawn is relatively smaller ($N \geq n$), then the Binomial distibution can be used to approximate the hypergeometric distribution. 
