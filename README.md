@@ -10,6 +10,7 @@
   <li><a href="./cs246/cs246.md">CS246</a>
   <ul>
     <li><a href="./cs246/1.%20Module%201%3A%20Linux/">1. Module 1: Linux</a></li>
+    <li><a href="./cs246/2.%20Module%202%3A%20C%2B%2B/">2. Module 2: Basic C++</a></li>
   </ul>
 </li>
 <li><a href="#Second_Point_Header">2 Second Point Header</a></li>
