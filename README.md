@@ -24,9 +24,3 @@
 <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
 </ul>
 </div>
-
-* [CS246](./cs246/cs246.md)
-* [CS245](./recipes/Gazpacho.md)
-* [STAT230](./recipes/Gazpacho.md)
-* TOC
-{:toc}
