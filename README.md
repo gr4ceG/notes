@@ -4,6 +4,7 @@
 4. engl306A notes from Randy Harris' lectures/""textbk
 
 # Table of Contents
+
 <div id="toc_container">
 <ul class="toc_list">
   <li><a href="./cs246/cs246.md">CS246</a>
