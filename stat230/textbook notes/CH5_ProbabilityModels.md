@@ -32,12 +32,10 @@ Note: $f(x)=F(x)-F(x-1)$ $\implies P(X=x) = P( X \leq x) - P(X \leq x-1)$
 Suppose the range of X is $\{a, a+1, ..., b\}$, where all values are ==equally probable==. Then $X$ has a *Discrete Uniform Distribution* on the set $\{a, a+1, ..., b\}$.
 
 > **Probability function:** There as $b-a+1$ values in the set $\{a, a+1, ..., b\}$, so the probability of each value is $\displaystyle\frac{1}{b-a+1}$ so that $\sum_{x=a}^{b}f(x)=1$
-$
-f(x)=\begin{cases}
+$$f(x)=\begin{cases}
     \displaystyle\frac{1}{b-a+1} &  \text{for } x=a,a+1,...,b \\
     0 & \text{otherwise}
-\end{cases}
-$
+\end{cases} $$
 
 *Example*: Suppose a fair die is thrown once and let $X$ be the number of face on the die. Find the p.f and c.d.f of $X$. 
 $p.f$: 
@@ -116,7 +114,7 @@ Basically the Negative Binomial Distribution but stop until first success ($k=1$
 
 Let X be the number of failures obtained before the first success. $X \sim Geometric(p)$.
 
-> **Probability function:** $f(x)=P(X=x)$==$=\displaystyle{{x+1-1}\choose x}p^1(1-p)^x=$==$(1-p)^xp$
+> **Probability function:** $f(x)=P(X=x)=\displaystyle{{x+1-1}\choose x}p^1(1-p)^x=(1-p)^xp$
 
 ---
 ## 5.7 Poisson Distribution from Binomial 
