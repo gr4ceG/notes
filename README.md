@@ -1,5 +1,3 @@
-{% include toc.html html=content %}
-
 1. cs246 notes from Robert Hackman (and some Caroline Kierstad) lectures. Lecture notes have been moved around slightly to fit each topic.
 2. cs245 notes from Patrick Roh and Yizhou's lectures
 3. stats notes from James Adcock (and some Jeremy Vanderdoes) lectures
