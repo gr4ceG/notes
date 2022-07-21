@@ -16,25 +16,3 @@
 <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
 </ul>
 </div>
-
-{% comment %} 
-hi jekyll ignore
-<div id="toc_container">
-<ul class="toc_list">
-  <li><a href="./cs246/cs246.md">CS246</a>
-  <ul>
-    <li><a href="./1.%20Module%201%3A%20Linux/">1. Module 1: Linux</a></li>
-    <li><a href="./2.%20Module%202%3A%20C%2B%2B/">2. Module 2: Basic C++</a></li>
-    <li><a href="./3.%20Object%20Oriented%20Programming/">3. Object Oriented Programming</a></li>
-    <li><a href="./4.%20Encapsulation%20and%20Iteration%20Patterns/">4. Encapsulation and Iteration Patterns</a></li>
-    <li><a href="./5.%20Relationships%20and%20Inheritance/">5. Relationship and Inheritance</a></li>
-    <li><a href="./6.%20Templates/">6. Templates</a></li>
-    <li><a href="./7.%20Exceptions/">7. Exceptions</a></li>
-    <li><a href="./8.%20Design%20Patterns/">8. Design Patterns</a></li>
-  </ul>
-</li>
-<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
-</ul>
-</div>
-{% comment %} 
