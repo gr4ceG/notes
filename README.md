@@ -9,6 +9,20 @@
 <ul class="toc_list">
   <li><a href="./cs246/cs246.md">CS246</a>
   <ul>
+    <li><a href="./cs246/1.%20Module%201%3A%20Linux/">1. Module 1: Linux</a></li>
+  </ul>
+</li>
+<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
+<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+</ul>
+</div>
+
+{% comment %} 
+hi jekyll ignore
+<div id="toc_container">
+<ul class="toc_list">
+  <li><a href="./cs246/cs246.md">CS246</a>
+  <ul>
     <li><a href="./1.%20Module%201%3A%20Linux/">1. Module 1: Linux</a></li>
     <li><a href="./2.%20Module%202%3A%20C%2B%2B/">2. Module 2: Basic C++</a></li>
     <li><a href="./3.%20Object%20Oriented%20Programming/">3. Object Oriented Programming</a></li>
@@ -23,3 +37,4 @@
 <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
 </ul>
 </div>
+{% comment %} 
