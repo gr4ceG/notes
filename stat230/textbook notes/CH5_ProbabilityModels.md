@@ -67,13 +67,6 @@ Observe:
 - $\displaystyle{N \choose n}$: total points in sample space S
 - $\displaystyle{r \choose x}$: ways to choose x success object from r available
 - $\displaystyle{N-r \choose n-x}$: ways to choose remaining $(n-x)$ objects from $(N-r)$ failures
-<style>
-r { color: #F95050 }
-navy { color: #000099 }
-b { color: #50C1F9 }
-o { color: #F7A63B }
-g { color: #48D03E }
-</style>
 
 {% comment %} 
      Character or lines for Jekyll to skip.
