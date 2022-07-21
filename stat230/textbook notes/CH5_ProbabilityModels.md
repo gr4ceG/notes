@@ -103,7 +103,8 @@ Observe:
 - There are $x+k$ trials and the last trial must be a sucess$\implies$ In the first $x+k-1$ trials there must be $x$ failures and $(k-1)$ successes
 - There must be $\displaystyle{{x+k-1}\choose{x}}$ different orders 
 
-> **Probability function:** ==$f(x)=P(X=x)= \displaystyle{{x+k-1}\choose{x}} p^k(1-p)^{n-k}$== for $x=0,1,...,n$ and $0<p<1$
+> **Probability function:** $f(x)=P(X=x)= \displaystyle{{x+k-1}\choose{x}} p^k(1-p)^{n-k}$ for
+> $x=0,1,...,n$ and $0 < p < 1$
 
 ### Binomial vs. Negative Binomial Distribution 
 - **Binomial**: Know the number of $n$ trials in advance, but do not know number of successes that will be obtained until after the experiment 
